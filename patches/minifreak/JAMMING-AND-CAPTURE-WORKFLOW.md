@@ -120,18 +120,45 @@ MiniFreak_Captures/
 
 Sometimes you want to hear your synth **through effects** while jamming to inspire different playing.
 
-### Setup:
-1. **Track 2 (Clean Audio):** Record arm ON, Monitor OFF
-2. **Track 3 (Colored Audio):** Record arm OFF, Monitor ON, FX loaded
+### How It Works
+
+Both Track 2 and Track 3 receive the **same audio input** (MiniFreak's output). The difference is which one you hear vs. record:
+
+| Track | Input | Insert FX | Monitor | Record Arm | Purpose |
+|-------|-------|-----------|---------|------------|---------|
+| Track 2 (Clean) | Input 1/2 | None | **OFF** | **ON** | Records dry signal |
+| Track 3 (Colored) | Input 1/2 | Lo-Fi, Reverb, etc. | **ON** | OFF | You hear this |
+
+### IMPORTANT: Monitoring Requirement
+
+**This only works if you listen through the MPC, not the MiniFreak directly.**
+
+You must:
+- Turn **OFF** or unplug MiniFreak's headphone/speaker output
+- Listen **only** through MPC headphones or MPC outputs
+
+If you hear the MiniFreak directly from its own outputs, you'll hear dry regardless of MPC effects. The colored monitoring only works when the MPC is your sole audio path.
 
 ### What happens:
-- You **hear** the colored version (reverb, lo-fi, etc.)
-- You **record** the clean version
+- You **hear** Track 3 (with effects) because Monitor is ON
+- You **record** to Track 2 (dry) because Record Arm is ON
+- Same source signal, different monitoring path
 - Best of both worlds
 
 ### When to flip:
 - If you love the colored sound and want to commit → arm Track 3 instead
 - If you want flexibility later → keep recording clean
+
+### Simpler Alternative
+
+If this setup feels complicated, skip Track 3 entirely:
+
+| Track | Purpose |
+|-------|---------|
+| Track 1 | MIDI capture |
+| Track 2 | Audio capture (dry) |
+
+Add effects later during production, not while jamming. This is totally valid.
 
 ---
 
