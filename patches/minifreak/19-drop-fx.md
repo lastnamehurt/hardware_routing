@@ -21,9 +21,10 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Basic Shapes** |
+| Type | **SuperWave** |
 | Wave | **Sine** |
-| Level | **100%** |
+| Detune | 0 |
+| Volume | 100% |
 
 ---
 
@@ -32,24 +33,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | Dark |
-| Level | **~15%** |
+| (Color) | Dark |
+| Volume | ~15% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 24dB** |
+| Type | **LP** |
 | Cutoff | ~12 o'clock (starting high) |
 | Resonance | ~10 o'clock |
-| Drive | ~11 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,7 +64,7 @@
 | Source | Destination | Amount |
 |--------|-------------|--------|
 | Envelope | Pitch | **Maximum** (downward) |
-| Envelope | Filter Cutoff | Medium (downward) |
+| Envelope | Cutoff | Medium (downward) |
 
 ---
 
@@ -74,7 +73,7 @@
 | Slot | Effect | Settings |
 |------|--------|----------|
 | FX1 | **Distortion** | Drive: ~10 o'clock |
-| FX2 | **Reverb** | Medium, Mix: ~20% |
+| FX2 | **Reverb** | Size: Medium, Mix: ~20% |
 
 ---
 

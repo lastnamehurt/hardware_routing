@@ -21,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Saw** |
-| Timbre | — |
-| Shape | — |
-| Level | 100% |
+| Type | **VAnalog** |
+| Detune | 0 (or slight) |
+| Shape | ~11 o'clock |
+| Wave | ~12 o'clock (saw-ish) |
+| Volume | 100% |
 
 ---
 
@@ -32,33 +33,32 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Pulse** |
-| Timbre | — |
-| Shape | — |
-| Level | — |
+| Type | **VAnalog** |
+| Detune | +3 |
+| Shape | ~10 o'clock (pulse-ish) |
+| Wave | ~10 o'clock |
+| Volume | ~50% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12 dB** |
-| Cutoff | Medium |
-| Resonance | Medium |
-| Drive | — |
-| Key Track | — |
+| Type | **LP** |
+| Cutoff | ~11 o'clock (medium) |
+| Resonance | ~10 o'clock (medium) |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
-| Attack | **Short** |
-| Decay | **Short** |
-| Sustain | **Low** |
-| Release | — |
+| Attack | **Minimum** |
+| Decay | ~10 o'clock (short) |
+| Sustain | ~9 o'clock (low) |
+| Release | ~9 o'clock |
 
 ---
 
@@ -66,7 +66,7 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Velocity | Filter Cutoff | Medium |
+| Velocity | Cutoff | Medium |
 
 ---
 

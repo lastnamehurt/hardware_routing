@@ -22,8 +22,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~1 o'clock (bright/metallic) |
-| Level | **100%** |
+| (Color) | ~1 o'clock (bright/metallic) |
+| Volume | 100% |
 
 ---
 
@@ -31,25 +31,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **FM** |
-| Ratio | High |
-| Level | **~20%** (metallic ring) |
+| Type | **Two Op. FM** |
+| (Ratio) | High |
+| (Depth) | Medium |
+| Volume | ~20% (metallic ring) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **HP 12dB** |
+| Type | **HP** |
 | Cutoff | ~12 o'clock |
 | Resonance | ~10 o'clock |
-| Drive | ~9 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|

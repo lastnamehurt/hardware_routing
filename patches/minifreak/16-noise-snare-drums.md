@@ -22,8 +22,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~11 o'clock (bright) |
-| Level | **100%** |
+| (Color) | ~11 o'clock (bright) |
+| Volume | 100% |
 
 ---
 
@@ -31,25 +31,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Basic Shapes** |
+| Type | **SuperWave** |
 | Wave | **Sine** |
-| Level | **~30%** (body) |
+| Detune | 0 |
+| Volume | ~30% (body) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **HP 12dB** |
+| Type | **HP** |
 | Cutoff | ~10 o'clock |
 | Resonance | ~9 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -64,7 +63,7 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Envelope | Filter Cutoff | Medium |
+| Envelope | Cutoff | Medium |
 | Velocity | Decay | Medium |
 
 ---
@@ -73,7 +72,7 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~10 o'clock |
+| FX1 | **Distortion** | Drive: ~10 o'clock |
 | FX2 | — | — |
 
 ---
@@ -83,7 +82,7 @@
 | Macro | Name | Assignments |
 |-------|------|-------------|
 | Macro 1 | **SNAP** | HP Cutoff + Decay |
-| Macro 2 | **BODY** | Sine Level |
+| Macro 2 | **BODY** | Sine Volume |
 
 ---
 

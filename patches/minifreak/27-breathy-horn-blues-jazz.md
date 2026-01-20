@@ -22,9 +22,9 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Formant** |
-| Timbre | ~11 o'clock |
-| Shape | ~10 o'clock |
-| Level | **100%** |
+| (Param 1) | ~11 o'clock |
+| (Param 2) | ~10 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -33,24 +33,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~10 o'clock (mid) |
-| Level | **~20%** (breath) |
+| (Color) | ~10 o'clock (mid) |
+| Volume | ~20% (breath) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~11 o'clock |
 | Resonance | ~10 o'clock |
-| Drive | ~9 o'clock |
-| Key Track | 90% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,10 +63,10 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Aftertouch | Filter Cutoff | Medium |
-| Aftertouch | Noise Level | Medium (breath) |
-| Velocity | Filter Cutoff | Medium |
-| LFO 1 (Sine) | Pitch | Slow, subtle vibrato |
+| Aftertouch | Cutoff | Medium |
+| Aftertouch | Noise Volume | Medium (breath) |
+| Velocity | Cutoff | Medium |
+| LFO 1 (Sine, slow) | Pitch | Subtle vibrato |
 
 ---
 
@@ -76,8 +74,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Mild Saturation** | Drive: ~9 o'clock |
-| FX2 | **Reverb** | Medium room, Mix: ~18% |
+| FX1 | **Distortion** | Drive: ~9 o'clock (mild) |
+| FX2 | **Reverb** | Size: Medium, Mix: ~18% |
 
 ---
 
@@ -85,7 +83,7 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **BREATH** | Noise Level + Attack |
+| Macro 1 | **BREATH** | Noise Volume + Attack |
 | Macro 2 | **VIBRATO** | LFO Amount |
 
 ---

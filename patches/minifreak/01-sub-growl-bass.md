@@ -21,9 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Basic Shapes** |
-| Wave | **SINE** |
-| Level | 100% |
+| Type | **BasicWaves** |
+| Morph | **50** (pure saw, then adjust toward 0 for more sub) |
+| Sym | Center |
+| Sub | **~70%** (add low-end girth) |
+| Volume | 100% |
 
 ---
 
@@ -31,34 +33,34 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Basic Shapes** |
-| Wave | **TRIANGLE** |
-| Tune | **-12 semitones** |
-| Detune | **+2** |
-| Level | 100% |
+| Type | **BasicWaves** |
+| Morph | ~30 (toward square) |
+| Sym | Center |
+| Sub | 0 |
+| Volume | **~40%** |
+
+*Tip: Tune OSC 2 down -12 semitones via menu for octave-down layering*
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Low-Pass 24 dB** |
-| Cutoff | **LOW** (just above sub) |
-| Resonance | 10–15% |
-| Drive | **ON** (important) |
-| Key Track | — |
+| Type | **LP** |
+| Cutoff | ~9 o'clock (low, just above sub) |
+| Resonance | ~10 o'clock |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
 | Attack | 0 |
-| Decay | Short |
+| Decay | ~10 o'clock |
 | Sustain | **Full** |
-| Release | Short |
+| Release | ~9 o'clock |
 
 ---
 
@@ -66,7 +68,7 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO 1 | Filter Cutoff | Rate: **Slow**, Amount: **Very subtle** |
+| LFO 1 (Sine, slow) | Cutoff | Very subtle (~5%) |
 
 ---
 
@@ -74,7 +76,7 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | — | — |
+| FX1 | **Distortion** | Drive: ~9 o'clock (subtle warmth) |
 | FX2 | — | — |
 
 ---
@@ -83,8 +85,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **GROWL** | Filter Cutoff |
-| Macro 2 | **DRIVE** | Drive + OSC mix |
+| Macro 1 | **GROWL** | Cutoff |
+| Macro 2 | **DRIVE** | Distortion Drive |
 
 ---
 

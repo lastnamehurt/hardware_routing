@@ -21,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Karplus** |
-| Timbre | ~11 o'clock |
-| Shape | ~10 o'clock |
-| Level | **100%** |
+| Type | **KarplusStr** |
+| Bow | ~11 o'clock |
+| Position | ~10 o'clock |
+| Decay | ~11 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -33,24 +34,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | Bright |
-| Level | **~5%** (pick attack) |
+| (Color) | Bright |
+| Volume | ~5% (pick attack) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~11 o'clock |
 | Resonance | ~9 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | 80% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,7 +64,7 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Velocity | Filter Cutoff | Medium |
+| Velocity | Cutoff | Medium |
 | Aftertouch | Pitch | Small vibrato |
 
 ---
@@ -74,8 +73,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~10 o'clock |
-| FX2 | **Spring Reverb** | Mix: ~12% |
+| FX1 | **Distortion** | Drive: ~10 o'clock |
+| FX2 | **Reverb** | Size: Medium, Mix: ~12% |
 
 ---
 
@@ -83,7 +82,7 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **GRIT** | Saturation + Filter Drive |
+| Macro 1 | **GRIT** | Distortion + Drive |
 | Macro 2 | **ROOM** | Reverb Mix |
 
 ---

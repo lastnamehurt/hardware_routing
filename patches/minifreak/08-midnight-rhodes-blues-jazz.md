@@ -1,4 +1,4 @@
-# PATCH 8 — MIDNIGHT RHODES (Blues/Jazz Keys)
+# PATCH 08 — MIDNIGHT RHODES (Blues/Jazz Keys)
 
 **Style:** Blues / Jazz Lo-Fi  
 **Bank:** Blues/Jazz  
@@ -11,7 +11,9 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Mode | **Poly (4–6 voices)** |
+| Mode | **Poly** (4–6 voices) |
+| Glide | OFF |
+| Glide Time | — |
 
 ---
 
@@ -19,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Harmonic** |
-| Timbre | ~11 o'clock |
-| Shape | ~12 o'clock |
-| Level | **100%** |
+| Type | **Harmo** |
+| Content | ~11 o'clock |
+| Sculpting | ~12 o'clock |
+| Chorus | ~10% |
+| Volume | 100% |
 
 ---
 
@@ -30,24 +33,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Triangle** |
-| Level | **~30%** |
+| Type | **SuperWave** |
+| Wave | Triangle |
+| Detune | 0 |
+| Volume | ~30% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~11 o'clock |
 | Resonance | ~10 o'clock |
-| Drive | ~9 o'clock |
-| Key Track | 80% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -60,15 +63,10 @@
 
 ## Modulation
 
-### Velocity
-| Destination | Amount |
-|-------------|--------|
-| Filter Cutoff | **Medium** |
-
-### Aftertouch
-| Destination | Amount |
-|-------------|--------|
-| Tremolo Depth | — |
+| Source | Destination | Amount |
+|--------|-------------|--------|
+| Velocity | Cutoff | Medium |
+| LFO 1 (Sine, slow) | Amp | ~20% (tremolo) |
 
 ---
 
@@ -76,8 +74,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tremolo** | Rate: Slow, Depth: ~20% |
-| FX2 | **Spring Reverb** | Mix: ~20% |
+| FX1 | **Chorus** | Rate: Slow, Depth: ~15% |
+| FX2 | **Reverb** | Size: Medium, Mix: ~20% |
 
 ---
 
@@ -85,7 +83,7 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **WARMTH** | Filter Cutoff + Saturation |
+| Macro 1 | **WARMTH** | Cutoff + Distortion |
 | Macro 2 | **ROOM** | Reverb Size + Mix |
 
 ---
@@ -102,4 +100,4 @@
 
 ## Result
 
-Warm, bell-like electric piano with classic tremolo and spring reverb. Late-night jazz club vibe.
+Warm, bell-like electric piano with classic tremolo and reverb. Late-night jazz club vibe.

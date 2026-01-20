@@ -11,7 +11,7 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Mode | **Poly (4 voices)** |
+| Mode | **Poly** (4 voices) |
 | Glide | OFF |
 | Glide Time | — |
 
@@ -21,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Saw** |
-| Timbre | — |
-| Shape | — |
-| Level | **100%** |
+| Type | **VAnalog** |
+| Detune | 0 |
+| Shape | ~10 o'clock |
+| Wave | ~12 o'clock (saw) |
+| Volume | 100% |
 
 ---
 
@@ -32,25 +33,25 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Pulse** |
-| Width | ~11 o'clock |
-| Level | **~60%** |
+| Type | **VAnalog** |
+| Detune | +5 |
+| Shape | ~11 o'clock (pulse-ish) |
+| Wave | ~10 o'clock |
+| Volume | ~60% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~12 o'clock |
 | Resonance | ~10 o'clock |
-| Drive | ~11 o'clock |
-| Key Track | 80% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,8 +66,8 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Envelope | Filter Cutoff | Medium (brass swell) |
-| Velocity | Filter Cutoff | High |
+| Envelope | Cutoff | Medium (brass swell) |
+| Velocity | Cutoff | High |
 
 ---
 
@@ -74,8 +75,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~10 o'clock |
-| FX2 | **Reverb** | Small room, Mix: ~10% |
+| FX1 | **Distortion** | Drive: ~10 o'clock |
+| FX2 | **Reverb** | Size: Small, Mix: ~10% |
 
 ---
 
@@ -83,7 +84,7 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **BITE** | Filter Cutoff + Resonance |
+| Macro 1 | **BITE** | Cutoff + Resonance |
 | Macro 2 | **ROOM** | Reverb Mix |
 
 ---

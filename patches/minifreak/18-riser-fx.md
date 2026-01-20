@@ -22,8 +22,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~10 o'clock |
-| Level | **100%** |
+| (Color) | ~10 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -31,24 +31,23 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Saw** |
-| Level | **~40%** |
+| Type | **VAnalog** |
+| Wave | Saw |
+| Volume | ~40% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~8 o'clock (starting low) |
 | Resonance | ~12 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -63,8 +62,8 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Envelope | Filter Cutoff | **Maximum** |
-| LFO 1 (Saw Up) | Pitch | Medium |
+| Envelope | Cutoff | **Maximum** |
+| LFO 1 (Saw up) | Pitch | Medium |
 
 ---
 
@@ -72,8 +71,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Reverb** | Large, Mix: ~30% |
-| FX2 | **Delay** | Long, Mix: ~20% |
+| FX1 | **Reverb** | Size: Large, Mix: ~30% |
+| FX2 | **Delay** | Time: Long, Mix: ~20% |
 
 ---
 

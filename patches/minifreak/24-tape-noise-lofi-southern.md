@@ -22,8 +22,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~9 o'clock (dark) |
-| Level | **100%** |
+| (Color) | ~9 o'clock (dark) |
+| Volume | 100% |
 
 ---
 
@@ -32,24 +32,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~11 o'clock (brighter) |
-| Level | **~20%** |
+| (Color) | ~11 o'clock (brighter) |
+| Volume | ~20% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~10 o'clock |
 | Resonance | ~9 o'clock |
-| Drive | ~11 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -64,8 +62,8 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO 1 (Random) | Filter Cutoff | Slow, subtle |
-| LFO 2 (Random) | Amp | Very slow, very subtle |
+| LFO 1 (Random, slow) | Cutoff | Subtle |
+| LFO 2 (Random, slow) | Amp | Very subtle |
 
 ---
 
@@ -73,7 +71,7 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~12 o'clock |
+| FX1 | **Distortion** | Drive: ~12 o'clock (tape-like) |
 | FX2 | **Chorus** | Rate: Very slow, Mix: ~10% |
 
 ---
@@ -83,7 +81,7 @@
 | Macro | Name | Assignments |
 |-------|------|-------------|
 | Macro 1 | **TEXTURE** | Noise Color Mix |
-| Macro 2 | **LEVEL** | Amp Level |
+| Macro 2 | **LEVEL** | Amp |
 
 ---
 

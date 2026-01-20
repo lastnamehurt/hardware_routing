@@ -21,9 +21,10 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Basic Shapes** |
+| Type | **SuperWave** |
 | Wave | **Sine** |
-| Level | **100%** |
+| Detune | 0 |
+| Volume | 100% |
 
 ---
 
@@ -32,24 +33,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | Dark |
-| Level | **~10%** (click) |
+| (Color) | Dark |
+| Volume | ~10% (click) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 24dB** |
+| Type | **LP** |
 | Cutoff | ~9 o'clock |
 | Resonance | Minimum |
-| Drive | ~10 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -82,7 +81,7 @@
 | Macro | Name | Assignments |
 |-------|------|-------------|
 | Macro 1 | **THUMP** | Pitch Env Amount + Decay |
-| Macro 2 | **CLICK** | Noise Level |
+| Macro 2 | **CLICK** | Noise Volume |
 
 ---
 

@@ -1,4 +1,4 @@
-# PATCH 7 — DELTA HARMONICA (Blues/Jazz Lead)
+# PATCH 07 — DELTA HARMONICA (Blues/Jazz Lead)
 
 **Style:** Blues / Jazz Lo-Fi  
 **Bank:** Blues/Jazz  
@@ -14,7 +14,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Mode | **Mono** |
-| Glide | **OFF** |
+| Glide | OFF |
+| Glide Time | — |
 
 ---
 
@@ -23,9 +24,9 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Formant** |
-| Timbre | ~12 o'clock |
-| Shape | ~11 o'clock |
-| Level | **100%** |
+| (Param 1) | ~12 o'clock |
+| (Param 2) | ~11 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -34,24 +35,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | **Bright** |
-| Level | **~15%** |
+| (Color) | Bright |
+| Volume | **~15%** (breath) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Band-Pass** |
+| Type | **BP** |
 | Cutoff | ~11 o'clock |
 | Resonance | ~1 o'clock |
-| Drive | ~9 o'clock |
-| Key Track | **100%** |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -64,24 +63,12 @@
 
 ## Modulation (CRITICAL)
 
-### Aftertouch
-| Destination | Amount |
-|-------------|--------|
-| Pitch | **Small vibrato** |
-| Filter Cutoff | **Moderate** |
-
-### Velocity
-| Destination | Amount |
-|-------------|--------|
-| Filter Cutoff | **Medium** |
-
-### LFO 1
-| Parameter | Value |
-|-----------|-------|
-| Shape | **Sine** |
-| Rate | ~8:30 |
-| Destination | Pitch |
-| Amount | **VERY small** |
+| Source | Destination | Amount |
+|--------|-------------|--------|
+| Aftertouch | Pitch | Small vibrato |
+| Aftertouch | Cutoff | Moderate |
+| Velocity | Cutoff | Medium |
+| LFO 1 (Sine, slow) | Pitch | Very subtle |
 
 ---
 
@@ -89,8 +76,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Mild Saturation** | Drive: ~9:30 |
-| FX2 | **Spring Reverb** | Size: Small, Mix: ~15% |
+| FX1 | **Distortion** | Drive: ~9 o'clock (mild) |
+| FX2 | **Reverb** | Size: Small, Mix: ~15% |
 
 ---
 
@@ -98,8 +85,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **BREATH** | Noise Level + Filter Cutoff |
-| Macro 2 | **CRY** | Vibrato Depth + Resonance |
+| Macro 1 | **BREATH** | Noise Volume + Cutoff |
+| Macro 2 | **CRY** | LFO Amount + Resonance |
 
 ---
 

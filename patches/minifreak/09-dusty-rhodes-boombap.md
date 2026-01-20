@@ -11,7 +11,7 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Mode | **Poly (4 voices)** |
+| Mode | **Poly** (4 voices) |
 | Glide | OFF |
 | Glide Time | — |
 
@@ -21,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Harmonic** |
-| Timbre | ~10 o'clock |
-| Shape | ~11 o'clock |
-| Level | **100%** |
+| Type | **Harmo** |
+| Content | ~10 o'clock |
+| Sculpting | ~11 o'clock |
+| Chorus | ~5% |
+| Volume | 100% |
 
 ---
 
@@ -33,24 +34,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | Dark |
-| Level | **~8%** (vinyl dust) |
+| (Color) | Dark |
+| Volume | **~8%** (vinyl dust) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~10 o'clock (rolled off highs) |
 | Resonance | ~9 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | 60% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,8 +64,8 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Velocity | Filter Cutoff | Medium |
-| LFO 1 (Random) | Pitch | **Very subtle** (tape wobble) |
+| Velocity | Cutoff | Medium |
+| LFO 1 (Random, slow) | Pitch | Very subtle (tape wobble) |
 
 ---
 
@@ -74,8 +73,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~10 o'clock |
-| FX2 | **Chorus** | Mix: ~8%, Rate: Slow |
+| FX1 | **Distortion** | Drive: ~10 o'clock (tape-like) |
+| FX2 | **Chorus** | Rate: Slow, Mix: ~8% |
 
 ---
 
@@ -83,8 +82,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **DUST** | Noise Level + Saturation |
-| Macro 2 | **WARMTH** | Filter Cutoff + Drive |
+| Macro 1 | **DUST** | Noise Volume + Distortion |
+| Macro 2 | **WARMTH** | Cutoff + Drive |
 
 ---
 

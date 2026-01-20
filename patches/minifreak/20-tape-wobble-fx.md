@@ -22,8 +22,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~9 o'clock (dark) |
-| Level | **100%** |
+| (Color) | ~9 o'clock (dark) |
+| Volume | 100% |
 
 ---
 
@@ -31,24 +31,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Sine** |
-| Level | **~5%** (subtle hum) |
+| Type | **SuperWave** |
+| Wave | **Sine** |
+| Detune | 0 |
+| Volume | ~5% (subtle hum) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~10 o'clock |
 | Resonance | ~9 o'clock |
-| Drive | ~11 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -63,9 +63,9 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO 1 (Sine) | Amp | Slow, Subtle (flutter) |
-| LFO 2 (Random) | Pitch | Very slow, Very subtle |
-| LFO 2 (Random) | Filter Cutoff | Subtle |
+| LFO 1 (Sine, slow) | Amp | Subtle (flutter) |
+| LFO 2 (Random, very slow) | Pitch | Very subtle |
+| LFO 2 | Cutoff | Subtle |
 
 ---
 
@@ -73,8 +73,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~11 o'clock |
-| FX2 | **Chorus** | Rate: Slow, Mix: ~15% |
+| FX1 | **Distortion** | Drive: ~11 o'clock (tape-like) |
+| FX2 | **Chorus** | Rate: Very slow, Mix: ~15% |
 
 ---
 
@@ -83,7 +83,7 @@
 | Macro | Name | Assignments |
 |-------|------|-------------|
 | Macro 1 | **WOBBLE** | LFO Amounts |
-| Macro 2 | **HUM** | Sine Level + LP Cutoff |
+| Macro 2 | **HUM** | Sine Volume + Cutoff |
 
 ---
 

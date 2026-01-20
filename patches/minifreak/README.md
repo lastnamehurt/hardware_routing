@@ -3,6 +3,7 @@
 MiniFreak synth patches organized by style, designed to be sampled into MPC kits.
 
 **Key Resources:**
+- [MiniFreak Reference](MINIFREAK-REFERENCE.md) — Accurate oscillator/filter/FX names from manual
 - [Patch Template](PATCH-TEMPLATE.md) — Use for all new patches
 - [MPC Sampling Guide](MPC-SAMPLING-GUIDE.md) — Standard sampling workflow
 

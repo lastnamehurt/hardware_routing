@@ -1,4 +1,4 @@
-# PATCH 6 — SWAMP HARMONICA (Lo-Fi Southern)
+# PATCH 06 — SWAMP HARMONICA (Lo-Fi Southern)
 
 **Style:** Lo-Fi Hip-Hop (Southern)  
 **Bank:** Lo-Fi Southern  
@@ -12,7 +12,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Mode | **Mono** |
-| Glide | **OFF** |
+| Glide | OFF |
+| Glide Time | — |
 
 ---
 
@@ -21,9 +22,9 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Formant** |
-| Timbre | ~11 o'clock |
-| Shape | ~10 o'clock |
-| Level | **100%** |
+| (Param 1) | ~11 o'clock |
+| (Param 2) | ~10 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -31,26 +32,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Harmonics** |
-| Timbre | ~9 o'clock |
-| Shape | ~9 o'clock |
-| Level | **~25%** |
+| Type | **Harmo** |
+| Content | ~9 o'clock |
+| Sculpting | ~9 o'clock |
+| Volume | ~25% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~10 o'clock |
 | Resonance | ~10 o'clock |
-| Drive | ~11 o'clock |
-| Key Track | 70% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -63,19 +62,10 @@
 
 ## Modulation
 
-### LFO 1
-| Parameter | Value |
-|-----------|-------|
-| Shape | **Random** |
-| Rate | ~9 o'clock |
-| Destination | Filter Cutoff |
-| Amount | **~20%** |
-
-### Mod Wheel
-| Parameter | Value |
-|-----------|-------|
-| Destination | Pitch |
-| Amount | **VERY small** (drift only) |
+| Source | Destination | Amount |
+|--------|-------------|--------|
+| LFO 1 (Random) | Cutoff | ~20% |
+| Mod Wheel | Pitch | Very subtle (drift) |
 
 ---
 
@@ -83,8 +73,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~11 o'clock |
-| FX2 | **Delay (Mono)** | Time: Slapback, Mix: ~12% |
+| FX1 | **Distortion** | Drive: ~11 o'clock (tape-like) |
+| FX2 | **Delay** | Time: Short (slapback), Mix: ~12% |
 
 ---
 
@@ -92,8 +82,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **DIRT** | Saturation + Filter Drive |
-| Macro 2 | **WARP** | Pitch Drift + Chorus Depth |
+| Macro 1 | **DIRT** | Distortion Drive |
+| Macro 2 | **WARP** | Pitch drift + Chorus |
 
 ---
 

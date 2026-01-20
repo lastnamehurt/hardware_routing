@@ -11,7 +11,7 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Mode | **Poly (4 voices)** |
+| Mode | **Poly** (4 voices) |
 | Glide | OFF |
 | Glide Time | — |
 
@@ -21,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Harmonic** |
-| Timbre | ~10 o'clock |
-| Shape | ~11 o'clock |
-| Level | **100%** |
+| Type | **Harmo** |
+| Content | ~10 o'clock |
+| Sculpting | ~11 o'clock |
+| Chorus | ~10% |
+| Volume | 100% |
 
 ---
 
@@ -32,25 +33,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Saw** |
+| Type | **SuperWave** |
+| Wave | Saw |
 | Detune | **+5** (wide) |
-| Level | **~40%** |
+| Volume | ~40% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~9 o'clock (dark) |
 | Resonance | ~9 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | 50% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,8 +65,8 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO 1 (Random) | Pitch | Very subtle (tape drift) |
-| LFO 2 (Sine) | Filter Cutoff | Slow, subtle |
+| LFO 1 (Random, slow) | Pitch | Very subtle (tape drift) |
+| LFO 2 (Sine, slow) | Cutoff | Subtle |
 
 ---
 
@@ -75,7 +75,7 @@
 | Slot | Effect | Settings |
 |------|--------|----------|
 | FX1 | **Chorus** | Rate: Slow, Depth: ~20%, Mix: ~25% |
-| FX2 | **Tape Saturation** | Drive: ~10 o'clock |
+| FX2 | **Distortion** | Drive: ~10 o'clock (tape-like) |
 
 ---
 
@@ -84,7 +84,7 @@
 | Macro | Name | Assignments |
 |-------|------|-------------|
 | Macro 1 | **DRIFT** | Pitch LFO Amount + Chorus Depth |
-| Macro 2 | **MURK** | Filter Cutoff + Saturation |
+| Macro 2 | **MURK** | Cutoff + Distortion |
 
 ---
 

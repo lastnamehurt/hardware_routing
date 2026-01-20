@@ -1,6 +1,6 @@
 # PATCH-TEMPLATE.md
 
-Copy this template for every new MiniFreak patch.
+Copy this template for every new MiniFreak patch. See [MINIFREAK-REFERENCE.md](MINIFREAK-REFERENCE.md) for valid parameter names.
 
 ---
 
@@ -17,7 +17,7 @@ Copy this template for every new MiniFreak patch.
 
 | Parameter | Value |
 |-----------|-------|
-| Mode | Mono / Poly |
+| Mode | Mono / Poly / Unison / Para |
 | Glide | ON / OFF |
 | Glide Time | — |
 
@@ -27,10 +27,11 @@ Copy this template for every new MiniFreak patch.
 
 | Parameter | Value |
 |-----------|-------|
-| Type | |
-| Timbre | |
-| Shape | |
-| Level | |
+| Type | BasicWaves / SuperWave / Harmo / KarplusStr / VAnalog / Waveshaper / Two Op. FM / Formant / Speech / Modal / Noise / Bass / SawX / Harm / Audio In |
+| Param 1 | (varies by type) |
+| Param 2 | (varies by type) |
+| Param 3 | (varies by type) |
+| Volume | |
 
 ---
 
@@ -38,26 +39,25 @@ Copy this template for every new MiniFreak patch.
 
 | Parameter | Value |
 |-----------|-------|
-| Type | |
-| Timbre / Color | |
-| Shape | |
-| Level | |
+| Type | (same as OSC 1, plus: Chords / Multi Filter / Surgeon Filter / Comb Filter / Phaser Filter / Destroy / FM/RM) |
+| Param 1 | (varies by type) |
+| Param 2 | (varies by type) |
+| Param 3 | (varies by type) |
+| Volume | |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | |
+| Type | LP / BP / HP |
 | Cutoff | |
 | Resonance | |
-| Drive | |
-| Key Track | % |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -72,8 +72,12 @@ Copy this template for every new MiniFreak patch.
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| | | |
-| | | |
+| LFO 1 | | |
+| LFO 2 | | |
+| Envelope | | |
+| Velocity | | |
+| Aftertouch | | |
+| Mod Wheel | | |
 
 ---
 
@@ -81,7 +85,7 @@ Copy this template for every new MiniFreak patch.
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | | |
+| FX1 | Chorus / Phaser / Flanger / Reverb / Delay / Distortion / Bit Crusher / 3 Bands EQ / Peak EQ / Multi Comp | |
 | FX2 | | |
 
 ---
@@ -92,6 +96,8 @@ Copy this template for every new MiniFreak patch.
 |-------|------|-------------|
 | Macro 1 | | |
 | Macro 2 | | |
+| Macro 3 | | |
+| Macro 4 | | |
 
 ---
 

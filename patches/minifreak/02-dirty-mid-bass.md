@@ -21,10 +21,10 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Wavefolder** |
-| Timbre | — |
-| Shape | — |
-| Level | 100% |
+| Type | **Waveshaper** |
+| (Param 1) | ~11 o'clock |
+| (Param 2) | ~10 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -33,31 +33,29 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | — |
-| Level | **LOW** |
+| (Color) | Dark |
+| Volume | **~15%** (adds grit) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **SEM** |
-| Cutoff | Mid |
-| Resonance | Low |
-| Drive | **Heavy** |
-| Key Track | — |
+| Type | **LP** |
+| Cutoff | ~11 o'clock (mid) |
+| Resonance | ~9 o'clock (low) |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
-| Attack | Slight (5–10 ms) |
-| Decay | Medium |
-| Sustain | Medium |
-| Release | — |
+| Attack | ~9 o'clock (slight) |
+| Decay | ~11 o'clock |
+| Sustain | ~10 o'clock |
+| Release | ~10 o'clock |
 
 ---
 
@@ -65,7 +63,7 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO | Wavefolder Amount | Rate: **Medium** |
+| LFO 1 (Sine) | Waveshaper params | Medium, slow rate |
 
 ---
 
@@ -73,7 +71,7 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | — | — |
+| FX1 | **Distortion** | Drive: ~12 o'clock (heavy) |
 | FX2 | — | — |
 
 ---
@@ -82,8 +80,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **DISTORT** | Distortion |
-| Macro 2 | **FILTER** | Filter Cutoff |
+| Macro 1 | **DISTORT** | Distortion Drive |
+| Macro 2 | **FILTER** | Cutoff |
 
 ---
 

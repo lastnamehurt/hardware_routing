@@ -22,8 +22,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~11 o'clock (mid-bright) |
-| Level | **100%** |
+| (Color) | ~11 o'clock (mid-bright) |
+| Volume | 100% |
 
 ---
 
@@ -32,24 +32,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~9 o'clock (darker) |
-| Level | **~40%** |
+| (Color) | ~9 o'clock (darker) |
+| Volume | ~40% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Band-Pass** |
+| Type | **BP** |
 | Cutoff | ~11 o'clock |
 | Resonance | ~10 o'clock |
-| Drive | ~9 o'clock |
-| Key Track | OFF |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -64,7 +62,7 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO 1 (Random) | Filter Cutoff | Subtle |
+| LFO 1 (Random) | Cutoff | Subtle |
 | LFO 2 (Random) | Amp | Very subtle (crackle) |
 
 ---
@@ -73,8 +71,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~10 o'clock |
-| FX2 | **LP Filter** | Cutoff: ~11 o'clock |
+| FX1 | **Distortion** | Drive: ~10 o'clock |
+| FX2 | — | — |
 
 ---
 
@@ -82,8 +80,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **DUST** | Noise Color + BP Cutoff |
-| Macro 2 | **LEVEL** | Amp Level |
+| Macro 1 | **DUST** | Noise Color + Cutoff |
+| Macro 2 | **LEVEL** | Amp |
 
 ---
 

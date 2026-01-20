@@ -21,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Harmonic** |
-| Timbre | — |
-| Shape | — |
-| Level | 100% |
+| Type | **Harmo** |
+| Content | ~11 o'clock |
+| Sculpting | ~10 o'clock |
+| Chorus | ~20% |
+| Volume | 100% |
 
 ---
 
@@ -32,33 +33,31 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **FM** |
-| Timbre | — |
-| Shape | — |
-| Level | — |
+| Type | **Two Op. FM** |
+| (Ratio) | Low |
+| (Depth) | Subtle |
+| Volume | ~40% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12 dB** |
-| Cutoff | Medium-low |
-| Resonance | Slight |
-| Drive | — |
-| Key Track | — |
+| Type | **LP** |
+| Cutoff | ~10 o'clock (medium-low) |
+| Resonance | ~9 o'clock (slight) |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
-| Attack | **Long** |
+| Attack | **~1 o'clock** (long) |
 | Decay | — |
-| Sustain | — |
-| Release | **Long** |
+| Sustain | Full |
+| Release | **~2 o'clock** (long) |
 
 ---
 
@@ -74,8 +73,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Chorus** | ON |
-| FX2 | **Reverb** | Dark / Short |
+| FX1 | **Chorus** | Rate: Slow, Depth: ~20% |
+| FX2 | **Reverb** | Size: Medium, Decay: Short, Mix: ~25% |
 
 ---
 

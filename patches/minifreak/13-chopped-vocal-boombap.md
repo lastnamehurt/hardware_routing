@@ -22,9 +22,9 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Formant** |
-| Timbre | ~12 o'clock |
-| Shape | ~10 o'clock |
-| Level | **100%** |
+| (Param 1) | ~12 o'clock |
+| (Param 2) | ~10 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -33,24 +33,22 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | Dark |
-| Level | **~10%** (breath) |
+| (Color) | Dark |
+| Volume | ~10% (breath) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~10 o'clock |
 | Resonance | ~11 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | 90% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,8 +63,8 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO 1 (Random) | Formant Shape | Subtle |
-| Mod Wheel | Filter Cutoff | Medium |
+| LFO 1 (Random) | Formant params | Subtle |
+| Mod Wheel | Cutoff | Medium |
 
 ---
 
@@ -74,7 +72,7 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~11 o'clock |
+| FX1 | **Distortion** | Drive: ~11 o'clock |
 | FX2 | **Delay** | Slapback, Mix: ~15% |
 
 ---
@@ -83,8 +81,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **VOWEL** | Formant Shape |
-| Macro 2 | **DUST** | Saturation + Noise |
+| Macro 1 | **VOWEL** | Formant params |
+| Macro 2 | **DUST** | Distortion + Noise |
 
 ---
 

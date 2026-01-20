@@ -21,10 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Karplus** |
-| Timbre | ~10 o'clock |
-| Shape | ~9 o'clock |
-| Level | **100%** |
+| Type | **KarplusStr** |
+| Bow | ~10 o'clock |
+| Position | ~9 o'clock |
+| Decay | ~10 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -32,24 +33,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Triangle** |
-| Level | **~25%** (body) |
+| Type | **SuperWave** |
+| Wave | Triangle |
+| Detune | 0 |
+| Volume | ~25% (body) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 24dB** |
+| Type | **LP** |
 | Cutoff | ~9 o'clock (dark) |
 | Resonance | ~8 o'clock |
-| Drive | ~9 o'clock |
-| Key Track | 70% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -64,7 +65,7 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| Velocity | Filter Cutoff | Medium |
+| Velocity | Cutoff | Medium |
 | Velocity | Amp | Medium |
 
 ---
@@ -73,7 +74,7 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~9 o'clock |
+| FX1 | **Distortion** | Drive: ~9 o'clock (subtle tape) |
 | FX2 | — | — |
 
 ---
@@ -82,8 +83,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **THUMP** | Filter Cutoff + Decay |
-| Macro 2 | **GRIT** | Saturation Drive |
+| Macro 1 | **THUMP** | Cutoff + Decay |
+| Macro 2 | **GRIT** | Distortion Drive |
 
 ---
 

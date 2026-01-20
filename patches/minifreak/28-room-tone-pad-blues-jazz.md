@@ -11,7 +11,7 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Mode | **Poly (4 voices)** |
+| Mode | **Poly** (4 voices) |
 | Glide | OFF |
 | Glide Time | — |
 
@@ -22,8 +22,8 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Noise** |
-| Color | ~9 o'clock (dark) |
-| Level | **100%** |
+| (Color) | ~9 o'clock (dark) |
+| Volume | 100% |
 
 ---
 
@@ -31,26 +31,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Harmonic** |
-| Timbre | ~9 o'clock |
-| Shape | ~10 o'clock |
-| Level | **~15%** (subtle tone) |
+| Type | **Harmo** |
+| Content | ~9 o'clock |
+| Sculpting | ~10 o'clock |
+| Volume | ~15% (subtle tone) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~9 o'clock (very dark) |
 | Resonance | ~8 o'clock |
-| Drive | ~9 o'clock |
-| Key Track | 30% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,8 +63,8 @@
 
 | Source | Destination | Amount |
 |--------|-------------|--------|
-| LFO 1 (Random) | Filter Cutoff | Very slow, subtle |
-| LFO 2 (Sine) | Amp | Very slow, very subtle |
+| LFO 1 (Random, very slow) | Cutoff | Subtle |
+| LFO 2 (Sine, very slow) | Amp | Very subtle |
 
 ---
 
@@ -74,8 +72,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~9 o'clock |
-| FX2 | **Reverb** | Large, Dark, Mix: ~35% |
+| FX1 | **Distortion** | Drive: ~9 o'clock (tape-like) |
+| FX2 | **Reverb** | Size: Large, Mix: ~35% |
 
 ---
 
@@ -84,7 +82,7 @@
 | Macro | Name | Assignments |
 |-------|------|-------------|
 | Macro 1 | **ROOM** | Reverb Size + Mix |
-| Macro 2 | **VINYL** | Noise Color + Saturation |
+| Macro 2 | **VINYL** | Noise Color + Distortion |
 
 ---
 

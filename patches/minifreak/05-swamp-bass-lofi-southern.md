@@ -1,4 +1,4 @@
-# PATCH 5 — SWAMP BASS (Southern Lo-Fi)
+# PATCH 05 — SWAMP BASS (Southern Lo-Fi)
 
 **Style:** Lo-Fi Hip-Hop (Southern)  
 **Bank:** Lo-Fi Southern  
@@ -21,11 +21,11 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Analog** |
-| Wave | **Saw** |
-| Timbre | ~11 o'clock |
-| Shape | Center |
-| Level | **100%** |
+| Type | **VAnalog** |
+| Detune | 0 |
+| Shape | ~11 o'clock |
+| Wave | ~12 o'clock (saw) |
+| Volume | 100% |
 
 ---
 
@@ -33,26 +33,25 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Harmonics** |
-| Timbre | ~9 o'clock |
-| Shape | ~10 o'clock |
-| Level | **~35%** |
+| Type | **Harmo** |
+| Content | ~9 o'clock |
+| Sculpting | ~10 o'clock |
+| Chorus | 0 |
+| Volume | ~35% |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 24dB** |
-| Cutoff | ~9:30 |
+| Type | **LP** |
+| Cutoff | ~9 o'clock (dark) |
 | Resonance | ~9 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | 50% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,13 +64,9 @@
 
 ## Modulation
 
-### LFO 1
-| Parameter | Value |
-|-----------|-------|
-| Shape | **Random** |
-| Rate | ~8 o'clock (slow) |
-| Destination | Osc Pitch |
-| Amount | **VERY small (~5%)** |
+| Source | Destination | Amount |
+|--------|-------------|--------|
+| LFO 1 (Random, slow) | Pitch | **~5%** (tape wobble) |
 
 ---
 
@@ -79,8 +74,8 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Distortion** | Drive: ~10:30 |
-| FX2 | **Chorus** | Mix: ~10% |
+| FX1 | **Distortion** | Drive: ~10 o'clock |
+| FX2 | **Chorus** | Rate: Slow, Mix: ~10% |
 
 ---
 
@@ -88,8 +83,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **DIRT** | Distortion Drive + Filter Drive |
-| Macro 2 | **SLUMP** | Filter Cutoff + Amp Decay |
+| Macro 1 | **DIRT** | Distortion Drive |
+| Macro 2 | **SLUMP** | Cutoff + Decay |
 
 ---
 

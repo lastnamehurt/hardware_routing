@@ -22,9 +22,9 @@
 | Parameter | Value |
 |-----------|-------|
 | Type | **Formant** |
-| Timbre | ~11 o'clock |
-| Shape | ~12 o'clock |
-| Level | **100%** |
+| (Param 1) | ~11 o'clock |
+| (Param 2) | ~12 o'clock |
+| Volume | 100% |
 
 ---
 
@@ -32,24 +32,24 @@
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **Triangle** |
-| Level | **~20%** (warmth) |
+| Type | **SuperWave** |
+| Wave | Triangle |
+| Detune | 0 |
+| Volume | ~20% (warmth) |
 
 ---
 
-## Filter
+## Analog Filter
 
 | Parameter | Value |
 |-----------|-------|
-| Type | **LP 12dB** |
+| Type | **LP** |
 | Cutoff | ~11 o'clock |
 | Resonance | ~11 o'clock |
-| Drive | ~10 o'clock |
-| Key Track | 80% |
 
 ---
 
-## AMP Envelope
+## Amp Envelope
 
 | Parameter | Value |
 |-----------|-------|
@@ -65,8 +65,8 @@
 | Source | Destination | Amount |
 |--------|-------------|--------|
 | Aftertouch | Pitch | Small vibrato |
-| Aftertouch | Filter Cutoff | Medium |
-| LFO 1 (Random) | Pitch | Very subtle (drift) |
+| Aftertouch | Cutoff | Medium |
+| LFO 1 (Random, slow) | Pitch | Very subtle (drift) |
 
 ---
 
@@ -74,7 +74,7 @@
 
 | Slot | Effect | Settings |
 |------|--------|----------|
-| FX1 | **Tape Saturation** | Drive: ~11 o'clock |
+| FX1 | **Distortion** | Drive: ~11 o'clock (tape-like) |
 | FX2 | **Delay** | Tempo sync, Mix: ~20% |
 
 ---
@@ -83,8 +83,8 @@
 
 | Macro | Name | Assignments |
 |-------|------|-------------|
-| Macro 1 | **CRY** | Formant Shape + Resonance |
-| Macro 2 | **DRIFT** | Pitch LFO + Saturation |
+| Macro 1 | **CRY** | Formant params + Resonance |
+| Macro 2 | **DRIFT** | Pitch LFO + Distortion |
 
 ---
 
