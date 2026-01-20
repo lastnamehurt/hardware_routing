@@ -41,8 +41,51 @@ SAMPLES → PROGRAM → TRACKS → SEQUENCE → SONG
 
 **For synth/keys (from MiniFreak samples):**
 1. Browser → find your sampled .wav
-2. Create Keygroup Program
+2. Create Keygroup Program (see below)
 3. Assign sample, set root note to C3
+
+---
+
+### How to Create a Keygroup Program
+
+A keygroup program lets you play a sample chromatically across the pads (like a piano).
+
+**On MPC One+ hardware:**
+
+1. **Press MENU → Program Edit** (or the four-pads icon)
+2. **Press the + icon** next to Program field
+3. **Select "Keygroup"** as the program type
+4. **Name it** (double-tap the name field, type, press Enter)
+
+**Assign your sample:**
+
+5. **Load sample to project:** Browser → find your .wav → double-click (adds to sample pool)
+6. **Go to Program Edit Mode** (four-pads icon)
+7. **Find Sample Layers section** (scroll right in the bottom panel)
+8. **Click Layer 1 dropdown** → select your sample
+9. **Set Root Note:** This tells MPC what pitch the sample was recorded at
+   - If you sampled at C3 (as recommended), set Root to **C3**
+   - Pad 13 (Bank D) = original pitch by default
+
+**Now your pads play the sample chromatically** — higher pads = higher pitch, lower pads = lower pitch.
+
+**Quick visual:**
+```
+┌─────────────────────────────────────────┐
+│ Inspector (left side)                   │
+│                                         │
+│ Track: Track 01                         │
+│        [🥁] [🎹] [🔌] [🎵]  ← Click 🎹  │
+│              ↑                          │
+│         piano-keys icon = Keygroup      │
+│                                         │
+│ Program: [+] My Bass ▼                  │
+│               ↑                         │
+│          + to create new                │
+└─────────────────────────────────────────┘
+```
+
+---
 
 ### 1.2 Record a Track
 
